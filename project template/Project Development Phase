@@ -1,0 +1,10 @@
+Phase 5: Project Development Phase
+Technology Choice: Gemini 2.5 Flash was chosen over other models because of its native ability to process images and text in a single "Flash" reasoning step, reducing latency.
+
+Core Logic Development:
+
+Implemented try-except blocks to catch specific Google API errors.
+
+Engineered a "System Instruction" prompt that forces the AI to stay in the persona of a "Professional Automotive Consultant."
+
+Code Optimization: Optimized image byte conversion to reduce the payload size sent to the cloud, ensuring faster response times.
