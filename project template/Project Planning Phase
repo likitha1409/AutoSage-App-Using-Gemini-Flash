@@ -1,0 +1,12 @@
+Phase 4: Project Planning Phase
+Milestones:
+
+Week 1: Environment setup and API key integration.
+
+Week 2: Development of the Multimodal prompt-engineering strategy.
+
+Week 3: Implementation of the Streamlit frontend and error-handling logic.
+
+Week 4: Testing with various vehicle types (Cruisers, Sportbikes, EVs).
+
+Risk Management: Identified "API Overload" as a primary risk. Mitigation: Implemented a 3-attempt retry loop with time.sleep().
