@@ -1,0 +1,18 @@
+Phase 2: Requirement Analysis Phase
+Functional Requirements:
+
+The system must accept image uploads (JPG, PNG).
+
+The AI must identify the Brand, Model, and Year range.
+
+Technical output must include displacement, cooling type, and fuel system.
+
+Non-Functional Requirements:
+
+Reliability: Use exponential backoff to handle API rate limits.
+
+User Interface: Must be responsive and accessible via mobile/web.
+
+Security: API keys must be isolated via environment variables.
+
+Software Requirements: Python 3.9, Streamlit 1.25+, Google-GenerativeAI SDK, Pillow.
